@@ -6,8 +6,8 @@ int main(int argc, char const *argv[])
 {
 	int a, b, n;
 
-	while(scanf("%d%d%d", &a, &b, &n), a||b||n)	//collect input and validate for three zeros
-	    printf("%d\n", fn(a, b, n));	
+	while(scanf("%d%d%d", &a, &b, &n)!=EOF) && a||b||n)	//collect input and validate for three zeros
+	    printf("%d\n", fn(a, b, n%49));	
 
 	return 0;
 }
