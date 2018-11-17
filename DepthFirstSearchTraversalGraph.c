@@ -36,7 +36,7 @@ void main()
 void DFS(int i)
 {
     int j;
-    printf("\n%d",i+1);
+    printf("%d",i+1);
     visited[i]=1; 							//set v to visited 
     
     for(j=0;j<n;j++)
